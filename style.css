@@ -2,6 +2,9 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: darkgrey;
+    font-size: 16px;
+   
 }
     h1 {
         color: #333;
@@ -11,11 +14,14 @@ body{
         color: #160101;
     }
     ul {
+        font-size: 20px;
         list-style: none;
         padding: 0;
+        
     }
    
     li {
+        
         margin-bottom: 10px;
     }
   
@@ -27,7 +33,7 @@ body{
         display: block; /* Asegura que el margen automático funcione */
     }
     .barra-vertical {
-        height: 165%;
+        height: 155%;
     width: 450px;
     position: absolute;
     left: 0;
@@ -39,10 +45,11 @@ body{
       }
       .contenido {
         margin-left: 250px;
-        font-size: 18px;
+        font-size: 12px;
         
       }
       .contenidoo {
+        
         margin-left: 70px;
         font-size: 18px;
         
@@ -82,4 +89,15 @@ body{
     .h2{
         justify-content: center; /* Centra horizontalmente */
         margin-right: 85px;
+    }
+   
+    
+    footer{
+        background-color: #e74c3c;
+        height: 97px;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        padding: 50px;
+        margin-left: 120px;
     }
